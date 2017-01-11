@@ -54,6 +54,7 @@ class Token(base.AuthMethodHandler):
 
 
 def token_authenticate(request, auth_payload, user_context, token_ref):
+    LOG.warn("AT&T Customization Present.")
     try:
 
         # Do not allow tokens used for delegation to
