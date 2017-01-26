@@ -57,6 +57,8 @@ PARAMS_ENV = 'openstack.params'
 JSON_ENCODE_CONTENT_TYPES = set(['application/json',
                                  'application/json-home'])
 
+LOG.warn("AT&T Modification Present.")
+
 
 def validate_token_bind(context, token_ref):
     bind_mode = CONF.token.enforce_token_bind
